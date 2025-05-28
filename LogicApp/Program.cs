@@ -14,6 +14,18 @@
             // OR  ||
             // NOT !
 
+            // Variants of OR statements
+            // true || true -> true
+            // true || false -> true
+            // false || true -> true
+            // false || false -> false
+
+            // Variants of AND statements
+            // true || true -> true
+            // true || false -> false
+            // false || true -> false
+            // false || false -> false
+
             if (isRainy && hasUmbrella)
             {
                 Console.WriteLine("I am protected against rain");
@@ -23,6 +35,7 @@
             {
                 Console.WriteLine("I am not getting wet");
             }
+
             Console.WriteLine("Ay OK!");
             Console.ReadKey();
         }
